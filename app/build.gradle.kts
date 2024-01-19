@@ -40,6 +40,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
     val roomVersion = "2.6.1"
     val navVersion = "2.7.6"
     implementation("androidx.room:room-runtime:$roomVersion")
